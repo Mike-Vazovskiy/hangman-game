@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Висельник</title>
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+    <div class="modal">
+        <div class="content">
+            <img src="images/lost.gif">
+            <h4></h4>
+            <p></p>
+            <button class="retry">Начать заново</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hangman-box">
+            <img src="images/hangman-0.svg">
+            <h1>Висельник</h1>
+        </div>
+        <div class="game-box">
+            <ul class="word-display">
+            </ul>
+            <h4 class="hint-text">
+                Подсказка:
+                <b>Lorem ipsum dolor sit amet.</b>
+            </h4>
+            <h4 class="guesses-text">
+                Попыток:
+                <b>0 / 6</b>
+            </h4>
+            <div class="keyboard"></div>
+        </div>
+    </div>
+    <script src="js/words.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+</html>
